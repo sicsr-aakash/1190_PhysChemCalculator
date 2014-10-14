@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imagelistview"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:configChanges="orientation|screenSize"
+    	android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    	android:windowSoftInputMode="adjustResize|stateHidden" >
+        <activity
+            android:name="com.example.imagelistview.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.imagelistview.PhysicsCategory"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.imagelistview.ClassicalPhysicsCat"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.example.imagelistview.FluidMechCat"
+            android:label="@string/app_name" />
+        
+        <activity
+            android:name="com.example.imagelistview.ThermodynamicsCat"
+            android:label="@string/app_name" />
+        
+        <activity
+            android:name="com.example.imagelistview.ElectroMagnetCat"
+            android:label="@string/app_name" />
+        
+        <activity
+            android:name="com.example.imagelistview.GeophysicsCat"
+            android:label="@string/app_name" />
+        
+        <activity
+            android:name="com.example.imagelistview.ChemistryCategory"
+            android:label="@string/app_name" />
+       
+         <activity
+            android:name="com.example.imagelistview.AtomicStructCat"
+            android:label="@string/app_name" />
+       
+         <activity
+            android:name="com.example.imagelistview.MolecularChemCat"
+            android:label="@string/app_name" />
+       <activity
+            android:name="com.example.imagelistview.ThermoChemCat"
+            android:label="@string/app_name" />
+       
+       <activity
+            android:name="com.example.imagelistview.GasLiquidCat"
+            android:label="@string/app_name" />
+       
+       <activity
+            android:name="com.example.imagelistview.AcidBaseCat"
+            android:label="@string/app_name" />
+     
+         <activity
+            android:name="com.example.imagelistview.Force"
+            android:label="@string/app_name" />
+     
+       <activity
+            android:name="com.example.imagelistview.Work"
+            android:label="@string/app_name" />
+     
+       <activity
+            android:name="com.example.imagelistview.PowerWithWork"
+            android:label="@string/app_name" />
+     
+       <activity
+            android:name="com.example.imagelistview.PowerWithDis"
+            android:label="@string/app_name" />
+     
+        <activity
+            android:name="com.example.imagelistview.GeneralClass"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name="com.example.imagelistview.AboutAndMain"
+            android:label="@string/app_name" />
+        
+    </application>
+
+</manifest>

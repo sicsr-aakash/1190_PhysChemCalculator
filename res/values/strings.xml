@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Phy-Chem Cal</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	 <color name="my_custom_color">#ff1a557c</color>
+	 <string name="about">About Us</string>
+	 <string name="contact">Contact Us</string>
+	 <string name="table">Table Of Content</string>
+	 
+	 <string name="Heading"> A Phys-Chem Calculator</string>
+	 <string name="Introduction">
+	     This application provides an Interface
+	     For Calculating various Scientific-Formulae
+	     Including Physics,Chemistry both.
+	     </string>
+	 <string name="Created">Created By-</string>
+	    <string name="Manas">Manas Dutta</string>
+	    <string name="sibu">Sibu Stephen</string>	  
+	   
+	    
+	     
+	    <string name="instructiontitle">Instructions</string>
+	    <string name="instructionbrief">
+			1) Install and launch the application.<br></br><br/>
+			2) Open the application where there are two panels,
+			   one for Physics and one for Chemistry.<br/>
+			3) User can go for either Physics or Chemistry
+			   to calculate according to user preference.<br/>
+			4) In Physics slot there are 5 major topics
+			   and in Chemistry there are 4 major topics.<br/>
+			5) When user gets into a particular topic,
+			   user can view fields according to the formula.
+			   Example if Force=Mass * Acceleration,
+			   user needs to provide values for either force or
+			   mass or acceleration; any two from the above three.<br/>
+			6) NOTE: User needs to enter the values by clicking on the checkbox
+			   next to the fields.After viewing the result, if the user needs to enter values into the
+			   field that is not empty then he is required to uncheck the checkbox associated with the field
+			   .<br/>             
+		</string>
+		 <color name="orange">#FFA500</color>
+</resources>
